@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FY COMP Login Portal</title>
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h2>FY COMP Login</h2>
+
+  <select id="dept" onchange="checkDept()">
+    <option value="">Select Department</option>
+    <option value="cse">Computer</option>
+  </select>
+
+  <div id="rollBox">
+    <input type="text" id="roll" placeholder="0125UCSM1234">
+  </div>
+
+  <button onclick="login()">Login</button>
+
+  <p id="error"></p>
+</div>
+
+
+<script>
+function checkDept(){
+  const dept = document.getElementById("dept").value;
+  const rollBox = document.getElementById("rollBox");
+  const error = document.getElementById("error");
+  
+  error.innerText = "";
+
+  if(dept === "cse"){
+    rollBox.style.display = "block";
+  } 
+  else if(dept === ""){
+    rollBox.style.display = "none";
+  } 
+  else {
+    rollBox.style.display = "none";
+    error.innerText = "❌ Only COMPUTER DEPARTMENT students can enter!";
+  }
+}
+
+function isValidRoll(roll){
+  const pattern = /^0125UCS[M|F]1\d{3}$/;
+
+  if(!pattern.test(roll)) return false;
+
+  const last = parseInt(roll.slice(-3));
+  return last >= 1 && last <= 143;
+}
+
+function login(){
+  const dept = document.getElementById("dept").value;
+  const roll = document.getElementById("roll").value.trim();
+  const error = document.getElementById("error");
+
+  error.innerText = "";
+
+  if(dept !== "cse"){
+    error.innerText = "❌ Only COMPUTER DEPT allowed!";
+    return;
+  }
+
+  if(!isValidRoll(roll)){
+    error.innerText = "❌ Wrong Roll Number Format!";
+    return;
+  }
+
+  localStorage.setItem("loggedin", "yes");
+  localStorage.setItem("roll", roll);
+
+  window.location.href = "SAMPLE1.html";
+}
+</script>
+
+</body>
+</html>
