@@ -53,22 +53,12 @@ https://sanjivanicollege.netlify.app/
 
 <div align="center">
 
-### 🔐 FY Computer Login Portal
+### 🔐 FY Computer Portal
 
-<img src="screenshots/login.png" width="850" alt="FY Computer Login Portal">
-
-<br><br>
-
-### 🏠 Student Portal
-
-<img src="screenshots/dashboard.png" width="850" alt="Student Portal">
+<img src="![Uploading ChatGPT Image Aug 27, 2026, 01_55_47 PM.png…]()
+" width="850" alt="FY Computer Portal">
 
 <br><br>
-
-### 💬 Chat Interface
-
-<img src="screenshots/chat.png" width="850" alt="Chat Interface">
-
 </div>
 
 > 📌 **Note:** Replace the screenshot paths above with your actual screenshot filenames.
