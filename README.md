@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # 🎓 Sanjivani College Student Portal
 
@@ -55,13 +55,11 @@ https://sanjivanicollege.netlify.app/
 
 ### 🔐 FY Computer Portal
 
-<img src="![Uploading ChatGPT Image Aug 27, 2026, 01_55_47 PM.png…]()
-" width="850" alt="FY Computer Portal">
-
+<img width="1000" height="1500" alt="ChatGPT Image Aug 27, 2026, 01_55_47 PM" src="https://github.com/user-attachments/assets/8b5e732b-6b0d-46fe-8255-2150df6fb077" /><div align="center">
 <br><br>
 </div>
 
-> 📌 **Note:** Replace the screenshot paths above with your actual screenshot filenames.
+>
 
 ---
 
