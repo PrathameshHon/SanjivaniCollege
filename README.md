@@ -452,48 +452,7 @@ The project can be extended into a complete student ecosystem.
 
 ---
 
-# 📸 Screenshots
 
-You can maintain your screenshots inside a dedicated folder:
-
-```text
-screenshots/
-│
-├── login.png
-├── dashboard.png
-├── chat.png
-└── mobile.png
-```
-
-Then add them to the README:
-
-<div align="center">
-
-### 🔐 Login
-
-<img src="screenshots/login.png" width="800" alt="Login Screenshot">
-
-<br><br>
-
-### 🏠 Student Portal
-
-<img src="screenshots/dashboard.png" width="800" alt="Dashboard Screenshot">
-
-<br><br>
-
-### 💬 Chat
-
-<img src="screenshots/chat.png" width="800" alt="Chat Screenshot">
-
-<br><br>
-
-### 📱 Mobile
-
-<img src="screenshots/mobile.png" width="500" alt="Mobile Screenshot">
-
-</div>
-
----
 
 # 🌐 Deployment
 
